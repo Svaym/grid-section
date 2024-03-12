@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-slate-400 font-barlow
+}
+.container {
+  @apply w-11/12 mx-auto px-2 md:max-w-7xl
+}
+.reviews__content {
+  @apply my-[34px] flex flex-col gap-y-3 md:grid grid-cols-4 grid-rows-2 gap-4
+}
+.review--first {
+  @apply bg-violet-800 rounded-xl p-3 md:col-start-1 col-end-3
+}
+.reviews__author {
+  @apply flex items-center gap-x-2
+}
+.reviews__img {
+  @apply rounded-3xl h-9 lg:h-11
+}
+.reviews__info {
+  @apply text-sm
+}
+.reviews__name {
+  @apply text-slate-100 md:text-xs lg:text-sm
+}
+.reviews__status {
+  @apply font-light text-slate-400 md:text-xs lg:text-sm
+}
+.reviews__description {
+  @apply font-bold text-slate-200 text-lg mt-2 md:text-base lg:text-lg
+}
+.reviews__quote {
+  @apply mt-2 font-light text-slate-400 text-sm lg:text-base
+}
+.review--second {
+  @apply bg-slate-600 rounded-xl p-3
+}
+.review--third {
+  @apply rounded-xl p-3 bg-white
+}
+.reviews__status--third{
+  @apply text-slate-800
+}
+.reviews__description--third{
+  @apply text-slate-800
+}
+.reviews__quote--third{
+  @apply text-slate-800
+}
+.reviews__name--third {
+  @apply text-slate-950
+}
+.review--fourth {
+  @apply rounded-xl p-3 bg-slate-700 md:col-start-2 col-end-4
+}
+.review--fifth {
+  @apply rounded-xl p-3 bg-white md:col-start-4 row-start-1 row-end-3
+}
+.reviews__status--fifth{
+  @apply text-slate-800
+}
+.reviews__description--fifth{
+  @apply text-slate-800
+}
+.reviews__quote--fifth{
+  @apply text-slate-800
+}
+.reviews__name--fifth{
+  @apply text-slate-950
+}
